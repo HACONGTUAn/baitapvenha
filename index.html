@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<section class="showcase">
+    <header>
+        <h2 class="logo">Travel</h2>
+        <div class="toggle "></div>
+    </header>
+    <video src="video/Cùng%20Anh%20-%20Ngọc%20Dolil%20x%20Hagi%20x%20STee%20%5B%20MV%20Fanmade%20%5D.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+        <h2>Never Stop</h2>
+        <h3>Exploring the world</h3>
+        <p>Maybe God wants us to meet a few wrong people before meeting the right one,
+            so that when we finally meet the person,
+            we will know how to be grateful. </p>
+        <a href="#">Explore</a>
+    </div>
+<!--    <ul class="socail">-->
+<!--        <li><img src="facebook.png" alt=""></li>-->
+
+<!--    </ul>-->
+</section>
+    <div class="menu">
+        <ul>
+            <li><a href="https://wowenglish.edu.vn/nhung-cau-noi-hay-ve-tinh-yeu-trong-tieng-anh/">Trâm ngôn tình Yêu</a> </li>
+            <li><a href="#">bài hát</a> </li>
+            <li><a href="#">yêu thích</a> </li>
+            <li><a href="#">lưu trữ</a> </li>
+        </ul>
+    </div>
+<script>
+    const menuToggle = document.querySelector('.toggle')
+    const showcase = document.querySelector('.showcase')
+
+    menuToggle.addEventListener('click',() => {
+        menuToggle.classList.toggle('active')
+        showcase.classList.toggle('active')
+    })
+</script>
+</body>
+</html>
